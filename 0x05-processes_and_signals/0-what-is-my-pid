@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Get the PID of the current shell process and store it in a variable.
+current_pid=$$
+
+# Print the PID to the console.
+echo $current_pid
