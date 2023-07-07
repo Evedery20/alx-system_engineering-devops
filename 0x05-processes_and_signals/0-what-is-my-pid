@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
+# Displays its own PID.
 
-# Get the PID of the current shell process and store it in a variable.
-current_pid=$$
-
-# Print the PID to the console.
-echo $current_pid
+echo $$
+`
 
